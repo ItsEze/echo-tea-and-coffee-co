@@ -1,4 +1,4 @@
-# echo-tea-and-coffee-co
+# TeaTime
 The landing page for echo platoon's new tea and coffee company 
 
 ## Excalidraw Link
