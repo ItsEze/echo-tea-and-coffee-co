@@ -368,7 +368,7 @@ export default function RecipeReviewCard() {
         />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            Oolong is a traditional semi-oxidized <i>Camellia sinensis</i> tea produced through a process that includes withering the plant under strong sun and allowing the leaves to oxidize. Once the leaves are oxidized, knomes curl and twist each individual leaf. Most oolong teas, especially those of fine quality, involve unique tea plant cultivars that are exclusively used for particular varieties.
+            Oolong is a traditional semi-oxidized <i>Camellia sinensis</i> tea produced through a process that includes withering the plant under strong sun and allowing the leaves to oxidize. Once the leaves are oxidized, gnomes curl and twist each individual leaf. Most oolong teas, especially those of fine quality, involve unique tea plant cultivars that are exclusively used for particular varieties.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -409,7 +409,7 @@ export default function RecipeReviewCard() {
                             <CircleIcon />
                         </ListItemIcon>
                         <ListItemText>
-                            DO NOT chase the mellow taste and blossom away. They always return home. And when they do, and the knomes find out you dissed them, they&apos;ll come to your house and kick your ass.
+                            DO NOT chase the mellow taste and blossom away. They always return home. And when they do, and the gnomes find out you dissed them, they&apos;ll come to your house and kick your ass.
                         </ListItemText>
                     </ListItem>
                 </List>
