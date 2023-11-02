@@ -13,5 +13,5 @@ docker-compose -f docker-compose.dev.yml up -d --build
 
 # make sure the postgres container is ready, then run migrations
 sleep 10 
-docker exec tastebud-api-1  python /src/manage.py makemigrations 
-docker exec tastebud-api-1  python /src/manage.py migrate
+docker exec teatime-api-1  python /src/manage.py makemigrations 
+docker exec teatime-api-1  python /src/manage.py migrate
