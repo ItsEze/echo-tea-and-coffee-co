@@ -23,7 +23,7 @@ header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(255,255,255,1.00);
+	color: rgba(68, 25, 11, 1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 53px;
@@ -37,14 +37,14 @@ header .profilePhoto {
 }
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(68, 25, 11, 1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(197,142,76,1.00);
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -63,7 +63,7 @@ header .profileHeader p {
 }
 header .socialNetworkNavBar {
 	text-align: center;
-	display: block;
+	display: inline-block;
 	margin-top: 60px;
 	clear: both;
 }
@@ -74,13 +74,18 @@ header .socialNetworkNavBar .socialNetworkNav {
 header .socialNetworkNavBar .socialNetworkNav img:hover {
 	opacity: 0.5;
 }
+.socialNetworkLogo {
+	height: 36px;
+	width: auto;
+	align-content: stretch;
+}
 /* Main Content sections */
 .mainContent .section1 {
 	display: block;
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(68, 25, 11, 1.00);
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -89,6 +94,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin: 0 3% 0 0;
 	float: left;
 	clear: both;
+	color: rgba(68, 25, 11, 1.00);
 }
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
 	background-color: rgba(208,207,207,1.00);
@@ -105,15 +111,18 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	color: rgba(146,146,146,1.00);
 	font-family: sans-serif;
 }
+.section2 {
+	margin-top: 48px;
+}
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(68, 25, 11, 1.00);
 	font-size: 18px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
-	color: rgba(68,67,67,1.00);
+	color: rgba(197,142,76,1.00);
 	font-size: 14px;
 	font-weight: 400;
 }
@@ -151,6 +160,11 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	display: inline-block;
 	margin-left: 2%;
 	margin-right: 2%;
+}
+.img {
+	float: right;
+	width: 200px;
+	height: auto;
 }
 /* Footer */
 footer .footerDisclaimer {
@@ -230,7 +244,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 	text-align: justify;
 }
 .mainContent .section2 {
-	display: block;
+	display: inline-block;
 	text-align: center;
 }
 .section2 .section2Content {
@@ -244,6 +258,18 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .externalResourcesNav .externalResources {
 	width: 100%;
 	height: 35px;
+	.img {
+	float: right;
+	width: 200px;
+	height: auto;
+	align-content: stretch;
+}
+.img {
+	float: right;
+	width: 200px;
+	height: auto;
+	align-content: stretch;
+}
 }
 /* Footer */
 footer {
@@ -320,6 +346,11 @@ header .socialNetworkNavBar .socialNetworkNav {
 	height: 48px;
 	margin-top: 5%;
 }
+.img {
+	float: right;
+	width: 200px;
+	height: auto;
+}
 /* Footer */
 footer .footerDisclaimer {
 	float: left;
@@ -385,6 +416,11 @@ header .socialNetworkNavBar .socialNetworkNav {
 .mainContent .externalResourcesNav .externalResources {
 	width: 199px;
 	height: 48px;
+}
+.img {
+	float: right;
+	width: 200px;
+	height: auto;
 }
 /* Footer */
 footer .footerDisclaimer {
