@@ -162,9 +162,12 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	margin-right: 2%;
 }
 .img {
-	float: right;
 	width: 200px;
 	height: auto;
+}
+div .img {
+	display: inline-block;
+	align-content: stretch;
 }
 /* Footer */
 footer .footerDisclaimer {
@@ -265,9 +268,11 @@ header .socialNetworkNavBar .socialNetworkNav {
 	align-content: stretch;
 }
 .img {
-	float: right;
 	width: 200px;
 	height: auto;
+}
+div .img {
+	display: inline-block;
 	align-content: stretch;
 }
 }
@@ -347,9 +352,12 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-top: 5%;
 }
 .img {
-	float: right;
 	width: 200px;
 	height: auto;
+}
+div .img {
+	display: inline-block;
+	align-content: stretch;
 }
 /* Footer */
 footer .footerDisclaimer {
@@ -418,9 +426,12 @@ header .socialNetworkNavBar .socialNetworkNav {
 	height: 48px;
 }
 .img {
-	float: right;
 	width: 200px;
 	height: auto;
+}
+div .img {
+	display: inline-block;
+	align-content: stretch;
 }
 /* Footer */
 footer .footerDisclaimer {
